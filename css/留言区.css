@@ -1,0 +1,106 @@
+#main{
+    height: 610px;
+}
+.word{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+.table{
+    display: table;
+    width:500px;
+    margin: 0 auto;
+    height: 500px;
+}
+.table{
+    display: table-row;
+    font-size: 30px;
+    font-weight: 500;
+}
+/* 姓名 */
+.tianxie-1{
+    display: table-cell;
+    width: 200px;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.answer-1{
+    display: table-cell;
+    width:500px;
+    height:50px;
+}
+.answer-1 input{
+    height:40px;
+    width: 400px;
+    opacity: 0.7;
+}
+/* 联系方式 、留言日期*/
+.tianxie-2{
+    display: table-cell;
+    width: 200px;
+    height: 50px;
+    padding-left: 100px;
+}
+.answer-2{
+    display: table-cell;
+    width:500px;
+    height:50px;
+}
+.answer-2 input{
+    height:40px;
+    width: 400px;
+    opacity: 0.7;
+}
+
+/*留言内容  */
+.tianxie-4{
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding-left: 100px;
+}
+.answer-4{
+    float: left;
+    width:500px;
+    height:330px;
+}
+textarea{
+    width: 400px;
+    height: 300px;
+    opacity: 0.7;
+}
+.submit{
+    display: table;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+}
+.concrete{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    overflow: visible;
+    border: 1px solid #aed0ea;
+    font-weight: bold;
+    color: #0070a3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.button{
+    padding: 0.4em 1em;
+    display: block;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #0070a3;
+}
+p{
+    font-size: large;
+}

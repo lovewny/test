@@ -1,0 +1,291 @@
+/* 背景、字体与之前的有所不同 */
+body{
+    background: url(../img/爱好/背景.jpg) repeat;
+}
+h1{
+    color: black;
+}
+a{
+    color:black;
+}
+#footer p{
+    color:black;
+}
+#main{
+    height:2100px;
+}
+
+
+
+
+/* 主要内容区分为了三个部分 */
+
+
+
+/* 音乐区 */
+.music{
+    background: url(../img/爱好/背景2.jpg) no-repeat;
+    width:1200px;
+    height:675px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+/* 左侧标题区 */
+.title1{
+    float:left;
+    height:675px;
+    width:300px;
+}
+.title1-1{
+font-size: 50px;
+padding-left: 90px;
+padding-top: 80px;
+}
+.title1-2{
+font-size: 20px;
+font-weight: 700;
+padding-top: 30px;
+padding-right: 20px;
+padding-left: 50px;
+padding-top: 30px;
+line-height: 30px;
+}
+.title1-3{
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 60px;
+}
+.img8{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 40px;
+}
+/* 右侧歌单区 */
+.list{
+    float: left;
+    height:650px;
+    width:900px;
+}
+
+.list li{
+    line-height: 50px;;
+}
+/* 第一行 */
+.name-1{
+    padding-top:90px ;
+    padding-left: 30px;
+    float: left;
+    width:300px;
+    font-size: 22px;
+    font-weight: 700;
+    color: seashell;
+}
+.listen-1{
+    float: left;
+    width:550px;
+    padding-top: 100px;
+}
+/* 其余行 */
+.name{
+    padding-left: 30px;
+    float: left;
+    width:300px;
+    font-size: 22px;
+    font-weight: 700;
+    color: seashell;
+}
+.listen{
+    padding-top: 10px;
+    float: left;
+    width:550px;
+}
+
+
+
+
+/* 日漫区 */
+.cartoon{
+    width: 1200px;
+    margin-top: 30px;
+    background: url(../img/爱好/背景2.jpg) no-repeat;
+    height:675px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+/* 左侧介绍区 */
+.enjoy{
+    float: left;
+    width:900px;
+    height: 650px;
+
+}
+.enjoy-1-1{
+    width: 900px;
+    height: 160px;
+    float: left;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.enjoy-1{
+    width: 900px;
+    height: 160px;
+    float: left;
+    padding-left: 30px;
+}
+.picture{
+    float: left;
+    width: 250px;
+}
+.classic-1{
+   margin-top: 10px;
+    float: left;
+    width: 650px;
+    font-size: 20px;
+}
+.classic{
+    padding-top: 20px;
+    float: left;
+    width: 650px;
+    font-size: 20px;
+}
+.name-2{
+    font-size: 20pxs;
+}
+span{
+    font-weight: 900;
+}
+.enjoy p{
+    font-weight: 600;
+    line-height:40px;
+}
+/* 右侧标题区 */
+
+.title2{
+    float:left;
+    width: 300px;
+    height: 675px;
+    color: white;
+}
+.title2-1{
+    font-size: 50px;
+    padding-top: 80px;
+    padding-left: 80px;
+    }
+.title2-2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+.title2-3{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.img2{
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* 影视区 */
+.movie{
+    margin-top: 30px;
+    background: url(../img/爱好/背景2.jpg) no-repeat;
+    height: 675px; 
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    width:1200px;
+}
+/* 左侧标题区 */
+.title3{
+    float:left;
+    height:675px;
+    width:300px;
+}
+.title3-1{
+    font-size: 50px;
+    padding-left: 90px;
+    padding-top: 80px;
+    }
+.title3-2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+    line-height: 30px;
+    }
+.title3-3{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 30px;
+    }
+.imgying{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+/* 右侧影视介绍区 */
+.television{
+    float: left;
+    height:675px;
+    width:900px;
+    color: white;
+}
+.television-1-1{
+    float:left;
+    width: 900px;
+    height: 225px;
+    padding-top: 10px;
+}
+.television-1{
+    float:left;
+    width: 900px;
+    height: 225px;
+}
+.picture-2{
+    float: left;
+    height: 220px;
+    width:360px;
+    padding-left: 20px;
+}
+.introduce{
+    float: left;
+    height: 225px;
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.television span{
+    font-size: 40px;
+}
+.television p{
+    font-size: 17px;
+    line-height: 20px;
+}

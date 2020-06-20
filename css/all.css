@@ -1,0 +1,63 @@
+body {
+    font: 12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    font-family: "SimSun";
+    background: url(../img/bg.jpg) no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:whitesmoke;
+    text-decoration:none;
+}
+a:hover{
+    color:gold;
+}
+/* 页眉区 */
+#header{
+    height: 85px;
+    width: 75%;
+    margin: 0 auto;
+}
+h1{
+    padding-top: 20px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+/* 导航区 */
+#nav{
+    height: 45px;
+    width: 75%;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    float: right;
+ 
+}
+#nav li{
+display: inline;
+font-size: 25px;
+margin: 0 15px;
+}
+/* 主要内容区 */
+#main{
+    height: 550px;
+    width: 75%;
+    margin: 0 auto;
+}
+/* 页脚区 */
+#footer{
+    height: 45px;
+    width: 75%;
+    margin: 0 auto;
+}
+#footer p{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+

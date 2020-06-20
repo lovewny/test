@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王诺依的个人主页</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/留言区.css">
+</head>
+
+<body>
+    <!-- 页眉区 -->
+    <div id="header">
+        <h1>留言区</h1>
+    </div>
+    <!-- 导航区 -->
+    <div id="nav">
+        <nav>
+            <ul>
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="../html/个人简介.html">个人简介</a></li>
+                <li><a href="../html/人生经历.html">人生经历</a></li>
+                <li><a href="../html/爱好.html">爱好</a></li>
+                <li><a href="../html/简历.html">简历</a></li>
+                <li><a href="../html/留言区.html">留言区</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- 主要内容区 -->
+    <div id="main">
+        <div class="word">
+            <!-- 表单 表格布局，两个部分 table、submit-->
+            <form action="" methon="POST">
+                <!-- 填写内容  四行两列 -->
+                <div class="table">
+                    <ul>
+                        <li>
+                            <div class="table-row">
+                                <div class="tianxie-1">
+                                    你的姓名
+                                </div>
+                                <div class="answer-1">
+                                    <input type="text" name="name">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="table-row">
+                                <div class="tianxie-2">
+                                   联系方式
+                                </div>
+                                <div class="answer-2">
+                                    <input type="text" name="name">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="table-row">
+                                <div class="tianxie-2">
+                                    留言日期
+                                </div>
+                                <div class="answer-2">
+                                    <input type="date" name="name">
+                                </div>
+                        </li>
+                        <li>
+                            <div class="table-row">
+                                <div class="tianxie-4">
+                                    留言内容
+                                </div>
+                                <div class="answer-4">
+                                    <textarea name="amswers"></textarea>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 提交 一行一列-->
+                <div class="submit">
+                    <p>
+                        <button class="concrete">
+                            <span class="button">提交</span>
+                        </button>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 页脚区 -->
+    <div id="footer">
+        <p>@王诺依</p>
+    </div>
+</body>
+
+</html>

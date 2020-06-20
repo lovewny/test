@@ -1,0 +1,65 @@
+/* 主要内容区，设置了一个主要内容区的图片背景 */
+#main{
+    height: 650px;
+    background: url(../img/人生经历/2.jpg);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    width: 1200px;
+    font-weight: bold;
+}
+/* 第一行的格式 */
+.concrete-1{
+    height:125px;
+    width:100%;
+    padding-top: 60px;
+}
+/* 其余行的格式 */
+.concrete{
+    height:125px;
+    width:100%;
+}
+/* 第一行第一块区域 */
+.first-1{
+    margin-left: 50px;
+    height:125px;
+    width: 275px;  
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* 第二行第二块区域 */
+.second-2{
+    margin-left: 325px;
+    height:125px;
+    width: 275px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;    
+}
+/* 第三行第三块区域 */
+.three-3{
+    margin-left: 600px;
+    height: 125px;
+    width: 275px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;    
+}
+/* 第四行第四块区域 */
+.four-4{
+    margin-left: 875px;
+    height: 125px;
+    width: 275px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+}
+/* 内容 */
+#main span{
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
